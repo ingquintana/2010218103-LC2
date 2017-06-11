@@ -40,8 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Paquete.cs" />
+    <Compile Include="Entities\Alimentacion.cs" />
+    <Compile Include="Entities\CalificacionHospedaje.cs" />
+    <Compile Include="Entities\CategoriaAlimentacion.cs" />
+    <Compile Include="Entities\CategoriaHospedaje.cs" />
+    <Compile Include="Entities\CategoriaTransporte.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\ComprobantePago.cs" />
+    <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Hospedaje.cs" />
+    <Compile Include="Entities\MedioPago.cs" />
+    <Compile Include="Entities\Paquete.cs" />
+    <Compile Include="Entities\Persona.cs" />
+    <Compile Include="Entities\ServicioHospedaje.cs" />
+    <Compile Include="Entities\ServicioTuristico.cs" />
+    <Compile Include="Entities\TipoComprobante.cs" />
+    <Compile Include="Entities\TipoHospedaje.cs" />
+    <Compile Include="Entities\TipoTransporte.cs" />
+    <Compile Include="Entities\Transporte.cs" />
+    <Compile Include="Entities\VentaPaquete.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
